@@ -1,7 +1,7 @@
 pipeline{
  agent any
  stages{
-  stage('tests')
+  stage('Tests')
   {
   steps{
    robot Tests/main.robot
