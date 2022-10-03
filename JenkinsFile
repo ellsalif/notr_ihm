@@ -4,7 +4,7 @@ pipeline{
   stage('build')
   {
   steps{
-   robot main.robot
+   robot '/Tests/main.robot'
   }
    
   }
