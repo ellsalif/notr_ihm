@@ -1,5 +1,5 @@
 *** Settings ***
-Resource  .../Ressources/common.robot
+Resource  ./Ressources/common.robot
 Resource  .../Ressources/PO/PageAccueil.robot
 Resource   ../Ressources/PO/PageProduit.robot
 Resource   ../Ressources/PO/panier.robot
