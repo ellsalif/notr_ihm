@@ -5,7 +5,7 @@ pipeline{
   {
   steps{
   script {
-  sh(script:'robot Test/main.robot')
+  sh(script:'robot Tests/main.robot')
   }
   }
    
