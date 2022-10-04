@@ -5,7 +5,7 @@ pipeline{
   {
   steps{
   script {
-  bat(script:robot main.robot)
+  bat(script:'robot main.robot')
   }
   }
    
