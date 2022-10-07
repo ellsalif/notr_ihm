@@ -4,9 +4,8 @@ pipeline{
   stage('build')
   {
   steps{
-  script {
-  bat(script:'robot main.robot')
-  }
+  sh robot main.robot
+  
   }
    
   }
