@@ -1,11 +1,14 @@
-pipeline{
- agent any
- stages{
-  stage('build')
-  {
-  steps{
-  robot '-d out  Tests/main.robot'
-  }
-   
-  }
-  }}
+pipeline {
+        stages {
+               stage(’Test’) {
+                       steps {
+                               sh ‘robot -d out/ Tests/main.robot’
+                         }
+                 }
+         post {
+                 always {
+                        robot outputPath: ‘out/’
+                        influxDbPublisher selectedTarget: ‘myDb’
+                  }
+           }
+   }
