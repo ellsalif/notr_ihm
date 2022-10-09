@@ -1,14 +1,14 @@
 pipeline {
         stages {
-               stage(’Test’) {
+               stage('Test') {
                        steps {
-                               sh ‘robot -d out/ Tests/main.robot’
+                               sh 'robot -d out/ Tests/main.robot'
                          }
                  }
          post {
                  always {
-                        robot outputPath: ‘out/’
-                        influxDbPublisher selectedTarget: ‘myDb’
+                        robot outputPath: 'out/'
+                        influxDbPublisher selectedTarget: 'myDb'
                   }
            }
    }
