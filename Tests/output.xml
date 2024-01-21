@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.9.2 on linux)" generated="2024-01-21T06:49:13.759816" rpa="false" schemaversion="5">
+<suite id="s1" name="Main" source="/home/ellsalif/notr_ihm/Tests/main.robot">
+<kw name="Begin Web Test" owner="common" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-01-21T06:49:14.226059" level="INFO">Opening browser 'firefox' to base url 'https://rosangeluxury.fr/'.</msg>
+<msg time="2024-01-21T06:49:39.069361" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-3.png"&gt;&lt;img src="selenium-screenshot-3.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2024-01-21T06:49:39.093377" level="FAIL">WebDriverException: Message: Reached error page: about:neterror?e=dnsNotFound&amp;u=https%3A//rosangeluxury.fr/&amp;c=UTF-8&amp;d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20rosangeluxury.fr.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:189:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:768:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:324:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+</msg>
+<arg>${GOOGLE_URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="FAIL" start="2024-01-21T06:49:14.225331" elapsed="24.984198">WebDriverException: Message: Reached error page: about:neterror?e=dnsNotFound&amp;u=https%3A//rosangeluxury.fr/&amp;c=UTF-8&amp;d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20rosangeluxury.fr.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:189:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:768:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:324:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+</status>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" start="2024-01-21T06:49:39.226950" elapsed="0.000416"/>
+</kw>
+<status status="FAIL" start="2024-01-21T06:49:14.223076" elapsed="25.005956">WebDriverException: Message: Reached error page: about:neterror?e=dnsNotFound&amp;u=https%3A//rosangeluxury.fr/&amp;c=UTF-8&amp;d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20rosangeluxury.fr.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:189:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:768:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:324:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+</status>
+</kw>
+<test id="s1-t1" name="Voir Produit Disponibles" line="10">
+<status status="FAIL" start="2024-01-21T06:49:39.237517" elapsed="0.025973">Parent suite setup failed:
+WebDriverException: Message: Reached error page: about:neterror?e=dnsNotFound&amp;u=https%3A//rosangeluxury.fr/&amp;c=UTF-8&amp;d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20rosangeluxury.fr.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:189:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:768:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:324:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+</status>
+</test>
+<test id="s1-t2" name="Choisir son produit" line="14">
+<status status="FAIL" start="2024-01-21T06:49:39.279001" elapsed="0.000949">Parent suite setup failed:
+WebDriverException: Message: Reached error page: about:neterror?e=dnsNotFound&amp;u=https%3A//rosangeluxury.fr/&amp;c=UTF-8&amp;d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20rosangeluxury.fr.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:189:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:768:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:324:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+</status>
+</test>
+<test id="s1-t3" name="Voir le panier" line="18">
+<status status="FAIL" start="2024-01-21T06:49:39.280659" elapsed="0.000672">Parent suite setup failed:
+WebDriverException: Message: Reached error page: about:neterror?e=dnsNotFound&amp;u=https%3A//rosangeluxury.fr/&amp;c=UTF-8&amp;d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20rosangeluxury.fr.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:189:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:768:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:324:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+</status>
+</test>
+<test id="s1-t4" name="Commander" line="20">
+<status status="FAIL" start="2024-01-21T06:49:39.282316" elapsed="0.000681">Parent suite setup failed:
+WebDriverException: Message: Reached error page: about:neterror?e=dnsNotFound&amp;u=https%3A//rosangeluxury.fr/&amp;c=UTF-8&amp;d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20rosangeluxury.fr.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:189:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:768:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:324:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+</status>
+</test>
+<kw name="End web Test" owner="common" type="TEARDOWN">
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-01-21T06:49:39.331231" elapsed="12.986167"/>
+</kw>
+<status status="PASS" start="2024-01-21T06:49:39.328450" elapsed="13.001105"/>
+</kw>
+<status status="FAIL" start="2024-01-21T06:49:13.763199" elapsed="38.567080">Suite setup failed:
+WebDriverException: Message: Reached error page: about:neterror?e=dnsNotFound&amp;u=https%3A//rosangeluxury.fr/&amp;c=UTF-8&amp;d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20rosangeluxury.fr.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:189:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:768:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:324:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:154:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+</status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="4" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="4" skip="0" id="s1" name="Main">Main</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

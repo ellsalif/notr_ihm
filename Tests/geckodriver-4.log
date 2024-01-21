@@ -1,0 +1,17 @@
+1705816154423	geckodriver	INFO	Listening on 127.0.0.1:53187
+1705816154474	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/hom ... te" "--remote-debugging-port" "51925" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile4MxBw6"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: vaapitest: ERROR
+[GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+1705816162572	Marionette	INFO	Marionette enabled
+1705816163333	Marionette	INFO	Listening on port 35821
+WebDriver BiDi listening on ws://127.0.0.1:51925
+Read port: 35821
+1705816163857	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:51925/devtools/browser/da638ed3-3947-4365-a149-6dda2ff37124
+1705816176789	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1705816179436	Marionette	INFO	Stopped listening on port 35821
